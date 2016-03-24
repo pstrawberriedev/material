@@ -1,6 +1,10 @@
-# josh.care
+# Material
+
+Using Materialize CSS!
+http://materializecss.com/
+
 Using the Scratch base!
 http://github.com/pstrawberriedev/scratch.git
 
 
-### Reinventing my personal web site
+### Testing out Materialize CSS
