@@ -1,45 +1,19 @@
 /*
-  scratch.js
+  script.js
 */
 
 // Selfie!
-(function() {
+(function($){
   
   // Say Hi!
-  console.log('--> scratch.js');
+  console.log('--> script.js');
   
-  // Flowtype Init
-  // http://simplefocus.com/flowtype/
-  $('body').flowtype({
-     minimum   : 320,
-     maximum   : 1980,
-     minFont   : 17,
-     maxFont   : 20,
-     fontRatio : 30
-  });
-  console.log('----> flowtype init');
+  // Materialize sidenav
+  $(function(){
+
+    $('.button-collapse').sideNav();
+
+  }); // end of document ready
   
-})();
+})(jQuery); // end of jQuery name space
 
-// Home Page
-// _
-if($('#home').length) {
-
-  // Swiper!
-  // http://idangero.us/swiper/
-  var swiper = new Swiper('.swiper-container', 
-                          {
-    scrollbar: '.swiper-scrollbar',
-    scrollbarHide: true,
-    slidesPerView: 2,
-    paginationClickable: true,
-    spaceBetween: 30,
-    freeMode: true,
-    freeModeMomentum: false,
-    keyboardControl: true,
-    mousewheelControl: true,
-    hashnav: true,
-    
-  });
-
-}
