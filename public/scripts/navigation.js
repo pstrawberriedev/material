@@ -37,8 +37,9 @@ function doScrollspy() {
       
       eleScrollspyMenu.append('<li><a href="#' + linkHref + '">' + linkText + '</a></li>');
       
-    }, initScrollspy());
+      $('.scrollspy').scrollSpy()
+      
+    });
   }
-  function initScrollspy() {$('.scrollspy').scrollSpy();}
   
 }
