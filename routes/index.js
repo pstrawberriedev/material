@@ -17,4 +17,15 @@ router.get('/', function(req, res) {
   
 });
 
+/* GET post page. */
+router.get('/post', function(req, res) {
+  
+  //Just passing data through to views
+  res.render('post', { 
+    page: 'Post',
+    master: master
+  });
+  
+});
+
 module.exports = router;
